@@ -1,0 +1,446 @@
+body {
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* NavBar Css Starts */
+@media (min-width: 992px) {
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.navbar {
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.nav-link {
+    font-size: 15px;
+}
+
+/* NavBar Css Ends */
+
+/* Banner Section Starts */
+.btn.btn-primary {
+    background: #fab95b;
+    border-color: #fab95b;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 80px;
+    padding: 10px 30px;
+}
+
+.btn.btn-primary:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.banner-image {
+    background-image: url('Images/hero-img.png');
+    background-size: cover;
+    background-position: center bottom;
+    line-height: 1.9;
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    width: 100%;
+    height: 45%;
+    justify-content: center;
+    align-items: center;
+}
+
+.lead,
+p {
+    font-size: 1.3rem;
+    color: white;
+    word-spacing: 1.5px;
+}
+
+.caption {
+    text-align: left;
+    align-self: center;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+#banner1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media (max-width: 575px) {
+    #banner1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+/* Banner Section Ends */
+
+/* Boxes Section Starts */
+.boxes-header {
+    position: relative;
+}
+
+.boxes-section-title {
+    text-align: center;
+}
+
+#boxes-section,
+h2,
+h3 {
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.box {
+    padding: 30px;
+    background: white;
+    box-shadow: 0 1px 2px 0px rgba(black, .1);
+    top: 0;
+    position: relative;
+}
+
+.box-part {
+    flex: 0 0 60px;
+
+}
+
+.box-part i {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background: orange;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+
+.box_desc h3 p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Boxes Section Ends */
+
+/* About Us Section Starts*/
+#text {
+    font-size: 1.0rem;
+    color: grey;
+    line-height: 30px;
+}
+
+#progress {
+    overflow: visible;
+    margin-bottom: 26px;
+    height: 4px;
+}
+
+#progress-bar1 {
+    background-color: orange;
+    position: relative;
+    border-radius: 4px;
+    width: 89%;
+}
+
+#progress-bar2 {
+    background-color: orange;
+    position: relative;
+    border-radius: 4px;
+    width: 75%;
+}
+
+#progress-bar3 {
+    background-color: orange;
+    position: relative;
+    border-radius: 4px;
+    width: 94%;
+}
+
+#progress-bar4 {
+    background-color: orange;
+    position: relative;
+    border-radius: 4px;
+    width: 94%;
+}
+
+#data-toolip {
+    margin-top: 8px;
+    background: orange;
+    height: 22px;
+    width: 40px;
+    text-align: center;
+    border-radius: 6px;
+    color: white;
+    margin: 11px 0px 0px -29px;
+}
+
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid orange;
+    margin: 4px 0px 0px -6px;
+
+}
+
+
+/* About Section Ends */
+
+
+/* Slider Section Starts */
+.white-heading {
+    color: #ffffff;
+}
+
+.myslider {
+    min-height: 575px;
+    position: relative;
+    background-color: rgb(235, 178, 72);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.myslider4_indicators .carousel-indicators::-webkit-scrollbar {
+    height: 3px;
+}
+
+.myslider4_indicators .carousel-indicators::-webkit-scrollbar-thumb {
+    background: #eeeeee;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+
+.myslider4_control_button .carousel-control.left {
+    left: 7%;
+    top: 50%;
+    right: auto;
+}
+
+.myslider4_control_button .carousel-control.right {
+    right: 7%;
+    top: 50%;
+    left: auto;
+}
+
+.myslider4_control_button .carousel-control.left:hover,
+.myslider4_control_button .carousel-control.right:hover {
+    color: #000;
+    background: #fff;
+    border: 2px solid #fff;
+}
+
+.blog-title {
+    position: relative;
+}
+
+.my_slide {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.my_slide p {
+    color: #f5eeee;
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 40px 0 20px 0;
+    line-height: 35px;
+    font-style: italic;
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.my_slide h4 {
+    color: rgba(255, 255, 255, 0.5);
+    ;
+    font-size: 18px;
+    font-style: italic;
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.myslider .carousel-control-next-icon,
+.myslider .carousel-control-prev-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.fa-quote-right {
+    color: white;
+}
+
+/* Slider Section Ends */
+
+/* Blog Section Starts */
+#text1 {
+    font-size: 1.4rem;
+}
+
+#blog_div {
+    background-color: #fff;
+    align-items: center;
+}
+
+.blog_post {
+    background-color: #f8f9fa;
+    padding: 30px;
+    top: 0;
+    position: relative;
+}
+
+#date1 {
+    color: #999999;
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+#read {
+    color: #fab95b;
+    font-size: 1.0rem;
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Blog Section Ends */
+
+/* Contact Form Section Starts */
+.form_header {
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.contact {
+    min-height: 850px;
+    background-color: rgb(235, 178, 72);
+    ;
+}
+
+input[type="text"],
+textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #FFDEAD;
+    outline-width: 0;
+}
+
+.form-group textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #FFDEAD;
+    outline-width: 0;
+}
+
+.form-group textarea:focus {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #FFDEAD;
+    outline-width: 0;
+}
+
+input[type="text"]:focus {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #FFDEAD;
+    outline-width: 0;
+}
+
+#input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #FFDEAD;
+    color: #FFDEAD
+}
+
+#input:focus {
+    outline-width: 0;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #eee;
+    color: #eee;
+}
+
+.form-control::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FFDEAD !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+#btn1 {
+    background: rgb(49, 44, 44);
+    border-color: rgb(49, 44, 44);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 80px;
+    padding: 10px 30px;
+}
+
+#btn1:hover {
+    background-color: black;
+    border-color: black;
+}
+
+#text2 {
+    font-size: 0.9rem;
+    color: grey;
+    line-height: 25px;
+    text-indent: left;
+}
+
+/* Contact Form Section Ends */
+
+/* Footer Section Starts */
+ul {
+    line-height: 40px;
+    color: grey;
+    font-size: 0.9rem;
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.icons {
+    padding: 10px 0;
+    justify-content: space-between;
+
+}
+
+#h1 {
+    font-size: 1.4rem;
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+#copy_right {
+    color: grey;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.footer-links {
+    text-align: left;
+}
+
+/* Footer Section Ends */
